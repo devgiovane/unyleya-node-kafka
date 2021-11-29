@@ -1,0 +1,14 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "producer": "node cmd/producer/index.js",
+    "consumer": "node cmd/consumer/index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  }
+}
